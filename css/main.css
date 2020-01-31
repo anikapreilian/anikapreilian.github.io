@@ -1,9 +1,15 @@
+body{
+	margin-left: 3vw;
+
+}
+
 h1 {
 	text-align: center;
 	color: black;
 	font-style: bold;
 	font-family: monaco;
-	font-size: 60px;
+	font-size: 35px;
+	margin-bottom: 5vh;
 }
 
 button {
