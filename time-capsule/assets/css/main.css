@@ -1,14 +1,72 @@
 body {
-	background-color: lightblue;
+	background-color: black;
 }
  
  img {
- /*height: 500px;*/
-  max-width: 50%;
+ 	position: fixed;
+  	max-width: 25%;
+  	filter: invert(100%);
+  	opacity: 34%;
  }
 
- .special-img {
- 	 max-width: 20%;
- 	 position: absolute;
- 	 top: 100px;
+ img:hover{
+ 	opacity:100%;
+ 	filter: none;
+    z-index: 1
  }
+
+.candle {
+	top: 0%;
+	left:9%;
+}
+
+.cheerio {
+	max-width: 24%;
+	top: 0%;
+	left:27%;
+}
+
+.note {
+	top: 14%;
+	left:0%;
+}
+
+.bunny {
+ 	max-width: 44%;
+	top: 0%;
+	left:57%;
+}
+
+.phone {
+	top: 7%;
+	left:46%;
+}
+
+.brush {
+	top: 48%;
+	left:36%;
+}
+
+.keys {
+	max-width: 30%;
+	top: 64%;
+	left:3%;
+}
+
+.weed {
+	max-width: 28%;
+	top: 50%;
+	left:18%;
+}
+
+.lighter {
+	max-width: 19%;
+	top: 44%;
+	left:69%;
+}
+
+.jewelry {
+	max-width: 32%;
+	top: 0%;
+	left:69%;
+}
