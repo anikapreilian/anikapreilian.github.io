@@ -1,0 +1,100 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.camera {
+	position: absolute;
+    width: 120px;
+    height: 90px;
+    background: black;
+    top: 283px;
+    left: 250px;
+    transform: skewy(2deg);
+    z-index: 2;
+}
+
+
+.book-1 {
+	position: absolute;
+    width: 200px;
+    height: 50px;
+    background: turquoise;
+    top: 315px;
+    left: 330px;
+    transform: skew(0deg);
+    transform: rotate(3deg);
+    z-index: 1;
+}
+
+.book-2 {
+	position: absolute;
+    width: 100px;
+    height: 30px;
+    background: grey;
+  	top: 293px;
+    left: 369px;
+    z-index: 2
+    transform: skew(0deg);
+    transform: rotate(3deg);
+}
+
+.vase {
+	position: absolute;
+    width: 70px;
+    height: 65px;
+    border-width: 2px;
+    border-radius: 57% 56% 50% 50% / 60% 60% 11% 12%;
+    background: linen;
+    top: 235px;
+    left: 385px;
+    z-index: 2;
+}
+
+.flower-1 {
+ position: absolute;
+ width: 10px;
+ height: 50px;
+ background: green;
+ top: -38px;
+ left: 50px;
+ z-index: 1;
+}
+
+.flower-2 {
+ position: absolute;
+ width: 10px;
+ height: 50px;
+ background: green;
+ top: -47px;
+ left: 32px;
+ z-index: 1;
+}
+
+.flower-3 {
+ position: absolute;
+ width: 10px;
+ height: 50px;
+ background: green;
+ top: -39px;
+ left: 15px;
+ z-index: 1;
+}
+
+
