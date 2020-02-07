@@ -1,0 +1,101 @@
+
+body { 
+	background-color: hsl(167, 20%, 89%);
+	
+	
+}
+
+.container {
+	margin: 5%;
+	width: 100%;
+	height: 400vh;
+	display: flex;
+	margin: 3px;
+	border-radius: 20px;
+	justify-content: space-around;
+	align-items: flex-start;
+	box-shadow: 0px -100px 200px hsl(316, 22%, 88%);
+	opacity: 60%;
+}
+
+.container:hover {
+	opacity: 100%;
+}
+
+
+.shape1 {
+	position: fixed;
+	width: 60vw;
+	height: 200vh;
+	border-radius: 40% 70% 50% 90%;
+	background: hsl(337, 39%, 77%);
+	box-shadow: 0px -40px 60px hsl(70, 39%, 77%);
+}
+
+.shape2 {
+	position: sticky;
+	width: 70vw;
+	height: 80vh;
+	border-radius: 60% 70% 50% 40%;
+	background: hsl(303, 39%, 77%);
+	box-shadow: 0px -40px 60px hsl(70, 39%, 77%);
+}
+
+
+.shape3 {
+	position: fixed;
+	width: 50vw;
+	height: 200vh;
+	border-radius: 80% 40% 60% 80%;
+	background: hsl(271, 39%, 77%);
+	box-shadow: 0px -40px 60px hsl(70, 39%, 77%);
+}
+
+.shape4 {
+	position: sticky;
+	width: 25vw;
+	height: 300vh;
+	border-radius: 60% 40% 70% 30%;
+	background: hsl( 232, 39%, 77%);
+	box-shadow: 0px -40px 60px hsl(70, 39%, 77%);
+}
+
+
+
+.shape5 {
+	position: fixed;
+	width: 30vw;
+	height: 50vh;
+	border-radius: 40% 70% 50% 90%;
+	background: hsl(195, 39%, 77%);
+	box-shadow: 0px -40px 60px hsl(70, 39%, 77%);
+}
+
+.shape6 {
+	position: sticky;
+	width: 30vw;
+	height: 100vh;
+	border-radius: 80% 40% 60% 80%;
+	background: hsl(163, 39%, 77%);
+	box-shadow: 0px -40px 60px hsl(70, 39%, 77%);
+}
+
+.shape7 {
+	position: fixed;
+	width: 40vw;
+	height: 30vh;
+	border-radius: 60% 40% 70% 30%;
+	background: hsl(129, 39%, 77%);
+	box-shadow: 0px -40px 60px hsl(70, 39%, 77%);
+}
+
+
+.shape8 {
+	position: sticky;
+	width: 60vw;
+	height: 100vh;
+	border-radius: 60% 70% 50% 40%;
+	background: hsl(43, 39%, 77%);
+	box-shadow: 0px -40px 60px hsl(70, 39%, 77%);
+}
+
