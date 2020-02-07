@@ -1,16 +1,13 @@
 
 body { 
-	background-color: hsl(167, 20%, 89%);
-	
-	
+	background-color: hsl(167, 20%, 89%);	
 }
 
 .container {
-	margin: 5%;
+	margin: 2%;
 	width: 100%;
 	height: 400vh;
 	display: flex;
-	margin: 3px;
 	border-radius: 20px;
 	justify-content: space-around;
 	align-items: flex-start;
