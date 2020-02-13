@@ -111,11 +111,11 @@ body {
 .flower2 {
   position: absolute;
   width: .5vw;
-  height: 3vw;
+  height: 3.1vw;
   background-color: lightgreen;
   top: -3vw;
   left: 2vw;
-  transform: rotate(-5deg);
+  transform: rotate(-13deg);
 }
 
 .flower3 {
@@ -131,7 +131,7 @@ body {
 .flower4 {
   position: absolute;
   width: .5vw;
-  height: 4vw;
+  height: 4.1vw;
   background-color: lightgreen;
   top: -4vw;
   left: 3vw;
@@ -139,6 +139,52 @@ body {
 }
 
 
+.leaf1 {
+  position: absolute;
+  width: 1vw;
+  height: 1.5vw;
+  border-radius: 50%;
+  background-color: pink;
+  top: -4.5vw;
+  left: 3vw;
+  transform: rotate(8deg);
+}
+
+
+.leaf2 {
+  position: absolute;
+  width: 1vw;
+  height: 1.5vw;
+  border-radius: 50%;
+  background-color: pink;
+  top: -4vw;
+  left: 1.5vw;
+  transform: rotate(8deg);
+}
+
+
+
+.leaf3 {
+  position: absolute;
+  width: 1vw;
+  height: 1.5vw;
+  border-radius: 50%;
+  background-color: pink;
+  top: -6.25vw;
+  left: 2.75vw;
+  transform: rotate(8deg);
+}
+
+.leaf4 {
+  position: absolute;
+  width: 1vw;
+  height: 1.5vw;
+  border-radius: 50%;
+  background-color: pink;
+  top: -5.75vw;
+  left: 1.5vw;
+  transform: rotate(8deg);
+}
 
 .cat {
   position: absolute;
@@ -177,6 +223,16 @@ body {
   height: 1vw;
   background: red;
   left: 0vw;
+  top: 3vw;
+}
+
+.bell {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  background: yellow;
+  border-radius: 50%;
+  left: 2vw;
   top: 3vw;
 }
 
