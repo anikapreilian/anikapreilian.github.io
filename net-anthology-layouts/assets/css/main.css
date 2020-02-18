@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	text-align: center;
+	background-color: lightyellow;
+}
+
+@font-face {
+  font-family: 'glowworm';
+  src: url('fonts/glowworm.woff') format('woff');
+  font-style: normal;
+}
+
+
+.heading {
+  font-size: 200px;
+  line-height: 1.4;
+  font-family: 'glowworm';
+  color:red;
+}
+
+.subhead1 {
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: 'glowworm';
+  color:deeppink;
+  margin-bottom: 3vw;
+}
+
+.subhead2 {
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: 'glowworm';
+  color:lightpink;
+  margin-top: 1vw;
+}
+
+.body {
+  font-size: 20px;
+  line-height: 2;
+  font-family: 'glowworm';
+  color:crimson;
+	margin-top: 3vw;
+	text-align: left;
+}
+
+.caption {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: 'glowworm';
+  color:black;
+  margin-top: 4vw;
+  margin-bottom: 3vw;
+}
+
+
+
+
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+} 
+
+.col1 {
+  width: 50%;
+  padding-left: 90px;
+  padding-right: 20px;
+} 
+
+.col2 {
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 90px;
+} 
+
+.col-1 {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+} 
+
+.col-2 {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+} 
+ 
+img {
+ 	max-width: 100%;
+ }
+
+.spacingquote {
+margin-top: 3vw;
+margin-bottom: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
