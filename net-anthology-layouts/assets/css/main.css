@@ -47,7 +47,7 @@ body{
 }
 
 .caption {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
   font-family: 'glowworm';
   color:black;
@@ -55,8 +55,9 @@ body{
   margin-bottom: 3vw;
 }
 
-
-
+img{
+max-width: 100%;
+}
 
 
 .row {
@@ -93,7 +94,7 @@ body{
   padding-right: 10px;
 } 
  
-img {
+.img1 {
  	max-width: 100%;
  }
 
@@ -102,11 +103,51 @@ margin-top: 3vw;
 margin-bottom: 1vw;
 }
 
+a {
+  color: deeppink;
+  text-decoration: none;
+}
 
 
+a:hover {
+  text-decoration: underline;
+}
 
 
+@media (max-width: 992px) {
+ .col1 {
+    display: inline;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+  }
+  .col2 {
+    display: inline;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+  }
+  .row{
+    display: inline;
+   
+  }
+  img{
+    max-width: 200%;
+    margin: 0 auto;
+  }
+  body{
+  text-align: center;
+  
+}
+.subhead1 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: 'glowworm';
+  color:deeppink;
+  margin-bottom: 3vw;
+}
 
+}
 
 
 
