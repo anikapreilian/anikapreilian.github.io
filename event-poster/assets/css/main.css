@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Champion-HTF-Heavyweight";
+  src: url("./fonts/Champion-HTF-Heavyweight.woff") format("woff"), /* Modern Browsers */
+  url("./fonts/Champion-HTF-Heavyweight.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.container {
+  font-family: "Champion-HTF-Heavyweight";
+  color: #EF84C2;
+  min-height: 30vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.title {
+	margin: auto;
+	font-size: 10vw;
+	animation: colorchange 1s infinite;
+	padding-bottom: 16px;
+	padding-top: 175px;
+
+}
+
+
+
+@keyframes colorchange {
+ 0% {
+ 	color: #EF84C2;
+ }
+  50% { 
+  	color: #15CCDD;
+  }
+  100% {
+ 	color: #EF84C2;
+ }
+}
+
+.row {
+	font-family: "Champion-HTF-Heavyweight";
+	display: flex;
+	min-height: 13vh;
+	background-color: white;
+	align-items: center;
+}
+
+.subtitle {
+	margin: auto;
+	font-size: 10vw;
+	color: white;
+}
+
+
+.h1 {
+	color:black;
+	margin: auto;
+	font-size: 2.5vw;
+}
+
+
+@media (max-width: 735px) {
+ .row {
+	font-family: "Champion-HTF-Heavyweight";
+	display: block;
+	min-height: 15vh;
+	background-color: white;
+	margin: auto;
+	padding-top: 19.5px;
+	align-items: center;
+}
+
+.h1 {
+	color:black;
+	margin: auto;
+	font-size: 5vw;
+}
+
+
+  body{
+  text-align: center;
+  
+}
+.title {
+	margin: auto;
+	font-size: 18vw;
+	animation: colorchange 1s infinite;
+	padding-top: 120px;
+
+}
+.subtitle {
+	margin: auto;
+	font-size: 18vw;
+	color: white;
+}
+
