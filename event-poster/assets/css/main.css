@@ -103,37 +103,4 @@ body {
 	color: white;
 }
 
-@media (max-width: 500px) {
- .row {
-	font-family: "Champion-HTF-Heavyweight";
-	display: block;
-	min-height: 15vh;
-	background-color: white;
-	margin: auto;
-	padding-top: 19.5px;
-	align-items: center;
-}
 
-.h1 {
-	color:black;
-	margin: auto;
-	font-size: 5vw;
-}
-
-
-  body{
-  text-align: center;
-  
-}
-.title {
-	margin: auto;
-	font-size: 18vw;
-	animation: colorchange 1s infinite;
-	padding-top: 120px;
-
-}
-.subtitle {
-	margin: auto;
-	font-size: 18vw;
-	color: white;
-}
