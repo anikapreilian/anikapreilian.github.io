@@ -3,7 +3,7 @@
 }
 
 body {
-	cursor: url('imgs/cursor.png'), default;
+	cursor: url('imgs/mouse.png'), default;
 	background: black;
 }
 
@@ -153,7 +153,7 @@ body {
    top: 114vh;
    left: 10vw;
    transform: rotate(-6deg);
-
+animation: jello 4s infinite ease;
 
 }
 
@@ -184,6 +184,7 @@ body {
     top: 136vh;
     left: 85vw;
     transform: rotate(9deg);
+    animation: jello 4s infinite ease;
 }
 
 .devil5 {
@@ -195,15 +196,7 @@ body {
     animation: jello 3s infinite ease;
 }
 
-
-.devil1:hover {
-	animation: hinge 2s 1;
-}
-
-.devil4:hover {
-	animation: hinge 2s 1;
-}
-
+                   
 @keyframes hinge {
   0% {
     -webkit-transform-origin: top left;
@@ -386,10 +379,8 @@ transform: skewX(0.390625deg) skewY(0.390625deg);
 	line-height: 38px;
 	padding-bottom: 50vh;
 
-
-
-	
 }
+
 
 .link {
 	color: #55ff00;
@@ -449,9 +440,447 @@ transform: skewX(0.390625deg) skewY(0.390625deg);
 }
 
 
+.eye1 {
+     position: absolute;
+    width: 95px;
+    top: 458vh;
+    left: 7vw;
+     animation: spin 2s infinite;
+}
 
 
 
+.eye2 {
+    position: absolute;
+    width: 106px;
+    top: 495vh;
+    left: 82vw;
+    animation: spin 6s infinite;
+}
+
+.eye3 {
+    position: absolute;
+    width: 115px;
+    top: 507vh;
+    left: 12vw;
+    animation: spin 3s infinite;
+}
+
+.eye4 {
+    position: absolute;
+    width: 115px;
+    top: 432vh;
+    left: 78vw;
+    animation: spin 3s infinite;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+@keyframes slideup {
+  0%    { top: 540vh; }
+   100% { top: 623vh; }
+
+}
+
+
+.gh1 {
+    position: absolute;
+    width: 140px;
+    top: 597vh;
+    left: 6vw;
+}
+
+
+.l1 {
+    position: absolute;
+    width: 115px;
+    top: 540vh;
+    left: 82vw;
+    animation: slideup 4s infinite;
+}
+
+
+
+.g1 {
+    position: absolute;
+    width: 310px;
+    top: 658vh;
+    left: 81vw;
+    overflow: hidden;
+}
+
+.g2 {
+    position: absolute;
+    width: 291px;
+    top: 707vh;
+    left: 0vw;
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+
+.grh1 {
+	position: absolute;
+    width: 100px;
+    top: 644vh;
+    left: 25vw;
+    overflow: hidden;
+     animation: float 2s infinite;
+}
+
+.grh2 {
+	position: absolute;
+    width: 100px;
+    top: 714vh;
+    left: 67vw;
+    overflow: hidden;
+    animation: float 2s infinite;
+}
+
+
+
+.b1 {
+    position: absolute;
+    width: 198px;
+    top: 776vh;
+    left: 6vw;
+    overflow: hidden;
+    animation: jello 3s infinite;
+}
+
+.b2 {
+position: absolute;
+    width: 198px;
+    top: 793vh;
+    left: 80vw;
+    overflow: hidden;
+    animation: jello 2s infinite;
+}
+
+
+.bear2 {
+    position: absolute;
+    width: 90px;
+    top: 878vh;
+    left: 80vw;
+    overflow: hidden;
+    animation: spin 7.5s infinite;
+
+}
+
+
+.bear1 {
+    position: absolute;
+    width: 114px;
+    top: 886vh;
+    left: 8vw;
+    overflow: hidden;
+    animation: spin 7s infinite;
+}
+
+.bear3 {
+    position: absolute;
+    width: 103px;
+    top: 928vh;
+    left: 87vw;
+    overflow: hidden;
+    animation: spin 8s infinite;
+
+}
+
+.mask {
+    position: absolute;
+    width: 200px;
+    top: 919vh;
+    left: 7vw;
+    overflow: hidden;
+}
+
+.bed4 {
+    position: absolute;
+	width: 70px;
+    top: 990vh;
+    left: 3vw;
+    transform: rotate
+    transform: rotate(0deg);
+    animation: slideright 8s infinite;
+}
+
+.bed5 {
+    position: absolute;
+    width: 70px;
+    top: 1026vh;
+    left: 83vw;
+    transform: rotate(0deg);
+    animation: slideleft 9s infinite;
+}
+
+.bed6 {
+    position: absolute;
+    width: 70px;
+    top: 1066vh;
+    left: 3vw;
+    transform: rotate(0deg);
+    animation: slideright 7s infinite;
+}
+
+.bag1 {
+   position: absolute;
+    width: 150px;
+    top: 1113vh;
+    left: 3vw;
+    transform: rotate(0deg);
+    animation: pulse 5s infinite;
+}
+
+.bag2 {
+    position: absolute;
+    width: 85px;
+    top: 1173vh;
+    left: 12vw;
+    transform: rotate(-14deg);
+    animation: pulse 5.5s infinite;
+}
+
+.bag3 {
+    position: absolute;
+    width: 125px;
+    top: 1143vh;
+    left: 80vw;
+    transform: rotate(-10deg);
+    animation: pulse 5s infinite;
+}
+
+
+.bag4 {
+    position: absolute;
+    width: 130px;
+    top: 1187vh;
+    left: 63vw;
+    transform: rotate(-3deg);
+    animation: pulse 5.5s infinite;
+}
+
+
+.bag5 {
+	position: absolute;
+    width: 90px;
+    top: 1117vh;
+    left: 43vw;
+    transform: rotate(-13deg);
+    animation: pulse 5s infinite;
+}
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1.55);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+.devil6 {
+   position: absolute;
+   width: 75px;
+    top: 1234vh;
+   left: 10vw;
+   transform: rotate(-6deg);
+animation: jello 4s infinite ease;
+
+}
+
+.devil7 {
+    position: absolute;
+    width: 56px;
+	top: 1306vh;
+    left: 28vw;
+    transform: rotate(6deg);
+    animation: jello 4s infinite ease;
+  
+}
+
+
+.devil8 {
+  	position: absolute;
+    width: 61px;
+    top: 1219vh;
+    left: 47vw;
+    transform: rotate(3deg);
+    animation: jello 5s infinite ease ;
+ 
+}
+
+.devil9 {
+    position: absolute;
+    width: 70px;
+    top: 1236vh;
+    left: 85vw;
+    transform: rotate(9deg);
+    animation: jello 4s infinite ease;
+}
+
+.devil10 {
+    position: absolute;
+    width: 56px;
+    top: 1310vh;
+    left: 65vw;
+    transform: rotate(-8deg);
+    animation: jello 3s infinite ease;
+}
+
+.mooon1 {
+    position: absolute;
+    width: 156px;
+    top: 1402vh;
+    left: 65vw;
+    transform: rotate(-8deg);
+    animation: spins 3s infinite ease;
+}
+
+.mooon2 {
+position: absolute;
+    width: 130px;
+    top: 1346vh;
+    left: 83vw;
+    transform: rotate(-39deg);
+    animation: spins 3s infinite ease;
+}
+
+.mooon3 {
+    position: absolute;
+    width: 140px;
+    top: 1378vh;
+    left: 9vw;
+    transform: rotate(124deg);
+    animation: spins 3s infinite ease;
+}
+
+
+@keyframes spins {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(180deg);}
+}
+
+
+
+.mr1 {
+    position: absolute;
+    width: 198px;
+    top: 1451vh;
+    left: 6vw;
+    overflow: hidden;
+    animation: jello 3s infinite;
+}
+
+.mr2 {
+position: absolute;
+    width: 198px;
+    top: 1475vh;
+    left: 80vw;
+    overflow: hidden;
+    animation: jello 2s infinite;
+}
+
+
+
+
+.moo1 {
+    position: absolute;
+	width: 125px;
+    top: 1534vh;
+    left: 83vw;
+    transform: rotate
+    transform: rotate(0deg);
+    animation: slideleft 8s infinite;
+}
+
+
+
+.moo2 {
+    position: absolute;
+    width: 125px;
+    top: 1618vh;
+    left: 3vw;
+    transform: rotate(0deg);
+    animation: slideright 7s infinite;
+}
+
+
+.end {
+	font-family: gemeli-mono, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10vw;
+	animation: colorchange 2s infinite step-start;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+  	max-width: 62vw;
+  	display: flex;
+  	margin: auto;
+  	padding-bottom: 20vh;
+  	justify-content: center;
+}
+
+@media (max-width: 935px) {
+
+.answer {
+
+	max-width: 55vw;
+
+	font-size: 15px;
+
+}
+
+
+.question {
+
+	max-width: 55vw;
+
+	font-size: 30px;
+
+}
+
+}
+
+
+@media print { 
+
+
+
+html {
+ background-color: black !important;
+  -webkit-print-color-adjust: exact !important;
+height: 80vh;
+
+}
+
+.body {
+	z-index: 1;
+}
+
+img {
+	z-index: 0 !important; 
+}
+
+.title {
+	animation: none;
+	color: #55ff00;
+}
+
+
+}
 
 
 
