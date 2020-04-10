@@ -27,20 +27,23 @@ button {
 button:hover {
 	opacity: 100%;
 	font-size: 85px;
+	background: white;
 }
 
-
+.hover {
+  background: radial-gradient(circle, rgba(212,218,148,1) 0%, rgba(245,170,186,1) 100%);
+  opacity: 85%;
+}
 
 @-webkit-keyframes rainbow{
-  	0%{color: orange;}	
   	10%{color: purple;}	
-	20%{color: red;}
-  	30%{color: CadetBlue;}
-	40%{color: yellow;}
+	20%{color: lightpink;}
+  	30%{color: lightblue;}
+	40%{color: palegoldenrod;}
   	50%{color: coral;}
-	60%{color: green;}
-  	70%{color: cyan;}
-  	80%{color: DeepPink;}
-  	90%{color: DodgerBlue;}
-	100%{color: orange;}
+	60%{color: lightgreen;}
+  	70%{color: skyblue;}
+  	80%{color: lavender;}
+  	90%{color: plum;}
+	100%{color: aliceblue;}
 }
