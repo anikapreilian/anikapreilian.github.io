@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: "phaseg";
+  src: url("./fonts/phaseg.woff") format("woff"), /* Modern Browsers */
+  url("./fonts/phaseg.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+ cursor: url('mouse.png'), default;
+  background-color: black;
+  font-family: "phaseg";
+
+}
+
+
+
+img {
+  display: block;
+}
+
+#featureRight {
+  padding-top: 10vw;
+  width:70%;
+
+  margin:0 auto;
+ text-align: center;
+ 
+  overflow:hidden;
+ 
+}
+
+#featureRight img{
+  width:45%;
+  float:left;
+}
+
+#featureRight p { 
+  width:50%;
+  float:left;
+padding-left: 5vw;
+padding-right: 5vw;
+  font-size: 3vh;
+  color: white;
+    line-height: 4vh;
+    padding-top: 12vh;
+
+
+}
+
+ 
+
+.title{
+ color: #489616;
+ font-family: "phaseg";
+ font-size: 3vh;
+ text-align: center;
+ position: relative;
+ padding-top: 15vh;
+ bottom: 1vh;
+}
+
+.leftbut{
+  font-size: 4vh;
+ position: relative;
+padding-left: 20vw;
+ float: left;
+     top: -4.5vh;
+
+}
+
+
+.rightbut{
+  font-size: 4vh;
+ position: relative;
+padding-right: 20vw;
+ float: right;
+     top: -4.5vh;
+
+}
+
