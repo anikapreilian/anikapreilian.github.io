@@ -35,7 +35,7 @@ font-size: 4.5vh;
 
 
 .parent {
-margin-top: 18vh;
+margin-top: 16vh;
 display: grid;
 grid-template-columns: repeat(7, 1fr);
 grid-template-rows: repeat(2, 1fr);
@@ -56,6 +56,9 @@ position: sticky;
  font-size: 2vh;
  text-align: center;
  margin-top: 12vh;
+  margin-bottom: : 4vh;
+ padding-left:13vw; 
+ padding-right:13vw;
 }
 
 a {
