@@ -18,13 +18,13 @@
 }
 
 .text {
-	padding-top: 7vw;
+	padding-top: 8vw;
 	text-align: center;
  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
- font-size: 7.95vw;
+ font-size: 7.8vw;
  color:#B81D6C;
 }
 
@@ -35,7 +35,7 @@
     bottom: 0;
     right: 0;
 
-    padding-bottom: 6vw;
+    padding-bottom: 5vw;
     padding-right: 5vw;
     color:#B81D6C;
 }
