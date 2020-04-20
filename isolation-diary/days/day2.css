@@ -84,3 +84,28 @@ padding-right: 20vw;
 
 }
 
+.dropdown {
+  padding-right: 7vw;
+  padding-top: 5vh;
+  color: #489616;
+   font-family: "phaseg";
+ font-size: 3vh;
+  position: absolute;
+   top:0;
+   right:0;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  padding-top: 1VW;
+  display: none;
+  position: absolute;
+  font-size: 1.75vh;
+  z-index: 1;
+  color: WHITE;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

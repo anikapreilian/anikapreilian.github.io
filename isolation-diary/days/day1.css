@@ -48,7 +48,7 @@ padding-right: 5vw;
   font-size: 3vh;
   color: white;
     line-height: 4vh;
-    padding-top: 10vh;
+    padding-top: 12vh;
 
 
 }
@@ -83,4 +83,43 @@ padding-right: 20vw;
      top: -4.5vh;
 
 }
+
+.dropdown {
+  padding-right: 7vw;
+  padding-top: 5vh;
+  color: #489616;
+   font-family: "phaseg";
+ font-size: 3vh;
+  position: absolute;
+   top:0;
+   right:0;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  padding-top: 1VW;
+  display: none;
+  position: absolute;
+  font-size: 1.75vh;
+  z-index: 1;
+  color: WHITE;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
