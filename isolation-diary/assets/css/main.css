@@ -15,17 +15,19 @@ body {
  cursor: url('mouse.png'), default;
   background-color: black;
   font-family: "phaseg";
-  overflow: hidden;
+
 
 }
 
 
 .title{
+position: relative;
  color: #489616;
  font-family: "phaseg";
  font-size: 3vh;
  text-align: center;
  margin-top: 4vw;
+ margin-bottom: 10vh;
 }
 
 
@@ -34,15 +36,23 @@ font-size: 4.5vh;
 }
 
 
-.parent {
-margin-top: 16vh;
-display: grid;
-grid-template-columns: repeat(7, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-align-items: center;
+.scroll {
+  overflow: scroll;
+  white-space: nowrap;
 }
+
+.parent {
+margin: 0 auto;
+position: relative;
+display: inline-flex;
+
+}
+
+.parent img {
+  width: 35vw;
+}
+
+
 
 .gif {
   width: 100%; 
@@ -50,13 +60,13 @@ align-items: center;
 
 
 .enter{
-position: sticky;
+position: relative;
  color: #489616;
  font-family: "phaseg";
  font-size: 2vh;
  text-align: center;
- margin-top: 12vh;
-  margin-bottom: : 4vh;
+ margin-top: 10vh;
+  margin-bottom:  4vh;
  padding-left:13vw; 
  padding-right:13vw;
 }
