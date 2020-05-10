@@ -13,12 +13,31 @@ var src = [
 
 var src = [
   {
-    link: "carrot.png",
+    link: "hazel2.png",
+    className: "sticker" 
+  },
+  {
+    link: "hazel.png",
+    className: "sticker" 
+  },
+   {
+    link: "disco.png",
+    className: "sticker" 
+  },
+  {
+    link: "disco3.png",
+    className: "sticker" 
+  },
+    {
+    link: "disco2.png",
+    className: "sticker" 
+  },
+    {
+    link: "hazel3.png",
     className: "sticker" 
   },
   
-  
-];
+  ];
 
 
 
