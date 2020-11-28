@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: "ogg";
+  src: url("./fonts/ogg.woff") format("woff"), /* Modern Browsers */
+  url("./fonts/ogg.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: bolder;
+  font-style: normal;
+
+}
+
+  body{
+  font-family: "ogg";
+ background: white; 
+  overflow: hidden;
+}
+
+.text {
+	padding-top: 17vw;
+	text-align: center;
+position: fixed;
+  text-shadow: 0px 2px, 2px 0px, 1px 1px;
+    left: 34vw;
+ 
+ font-size: 8vw;
+ color:black;
+}
+
+.person {
+	font-size: 3vw;
+	position: absolute;
+	top: 93vh;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 7vw;
+    padding-right: 5vw;
+    color:#4C9ABE;
+}
+
+
+.star {
+      top: 27vh;
+    height: 4.75vh;
+    position: relative;
+    left: 94vh;
+   
+}
+    
+.b {
+     top: 53vh;
+    height: 10vh;
+    position: relative;
+    /* left: 94vh; */
+    align-items: center;
+    left: 66vh;
+}
+
+
+.shape1 {
+	    height: 10vh;
+    position: relative;
+    top: 45vh;
+    left: 1vh;
+}
+
+
+.shape2 {
+	    height: 10vh;
+    position: relative;
+    top: 73vh;
+    left: 89vh;
+}
+
+.shape3 {
+	    height: 10vh;
+    position: relative;
+  top: 77vh;
+    left: 41vh;
+}
+.shape4 {
+	    height: 10vh;
+    position: relative;
+top: 3vh;
+    left: -9vh;
+}
+.shape5 {
+	    height: 10vh;
+    position: relative;
+    top: 14vh;
+    left: -55vh;
+}
+.shape6 {
+	    height: 10vh;
+    position: relative;
+top: 71vh;
+    left: -30vh;
+}
+.shape7 {
+	    height: 10vh;
+    position: relative;
+    top: 20vh;
+    left: 29vh;
+}
+
+.shape8 {
+	    height: 10vh;
+    position: relative;
+    top: 12vh;
+    left: -20vh;
+}
+
+.shape9 {
+	    height: 10vh;
+    position: relative;
+top: 52vh;
+    left: 3vh;
+}
+
+.shape10 {
+	    height: 10vh;
+    position: relative;
+     top: 14vh;
+    left: 27vh;
+}
+
+.shape11 {
+	    height: 10vh;
+    position: relative;
+  top: 45vh;
+    left: 9vh;
+}
+
+.shape12 {
+	    height: 10vh;
+    position: relative;
+top: 65vh;
+    left: -136vh;
+}
+
